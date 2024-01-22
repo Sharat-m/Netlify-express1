@@ -4,9 +4,9 @@ const serverless = require("serverless-http");
 const app = express();
 const router = express.Router();
 
-router.get("/test", (req, res) => {
+router.get("/key", (req, res) => {
   res.json({
-    x_api_key: "xyzzzzzzzzzzse"
+    x_api_key: "fa12345678912345678912345678985"
   });
 });
 
